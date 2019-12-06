@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: linear-gradient(128deg, #181818, #090909);
+  background-attachment: fixed;
+}
+
+#welcome {
+  color: #ddd;
+  display: block;
+  padding: 18%;
+  padding-bottom: 5em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+  font-size: 2em;
+  font-family: sans-serif;
+} welcome h1 {
+  margin-bottom: 0;
+}
+
+.slogan{
+  color: #666;
+  font-size: auto;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 9em;
+  background-color: #ddd;
+  height: 3em;
+  width: 10em;
+  border-radius: 81px;
+  text-align: center;
+  line-height: 3em;
+  font-size: x-large;
+  color: #000;
+  text-decoration: none;
+  transition: .4s ease-in-out;
+
+} .button:hover {
+  background-color: #181818;
+  color: #ddd;
+}
+
+.separator{
+  width: auto;
+  margin-top: -18px;
+  margin-bottom: 9px;
+  color: #666;
+}
